@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ED338A6FAB1ACC9CAE47309646A84C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2A3B893A0FEDE200C9973710B9E142C3 /* Pods-YGQPhotoAlbumHelpTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B34C00A5C81EF50BD5D95088E7B7E00F /* Pods-YGQPhotoAlbumHelpTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DDBEB418B69556742A2037264D69644 /* YGQPhotoAlbumHelpTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA0BACC2C5993FD4D29BDD11CDC6D6 /* YGQPhotoAlbumHelpTool-dummy.m */; };
+		42DF71BEF7914BC224BC71B61E167651 /* Pods-YGQPhotoAlbumHelpTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF808E71C3253D95526C46F1683EA69 /* Pods-YGQPhotoAlbumHelpTool_Tests-dummy.m */; };
+		5850E23B11F5D8B3E65D7F4C62888849 /* Pods-YGQPhotoAlbumHelpTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A28ACC26E1A6B03D7732A9F5EE799CD9 /* Pods-YGQPhotoAlbumHelpTool_Example-dummy.m */; };
+		7D15AFCDFFE0DBE5F19BAC014EF2488A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		97193320571CADA2C102478EACAD3CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CED4EC3CD7BED78D397CE4733AB7D87A /* Pods-YGQPhotoAlbumHelpTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B91EA89421F211219990F0EDE26422E7 /* Pods-YGQPhotoAlbumHelpTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F7F456064041B09410FE87A435D453 /* YGQPhotoAlbumHelpTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44618AF217163FC29C13104133D62956 /* YGQPhotoAlbumHelpTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC081C12137F4CB0B2189D7F8151073 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC06A60AFD168945E3A0C9DDEAC6A00A /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54AFBD2426C2F056B8D9E1AE5B454D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B889A36D74A4938BA49B48FD0B47B9A;
+			remoteInfo = YGQPhotoAlbumHelpTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CDCDDBA3B2FFE20B3F666A377F3AC45 /* Pods-YGQPhotoAlbumHelpTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGQPhotoAlbumHelpTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F1F279CFE57910CDC4004607CF0FD95 /* Pods-YGQPhotoAlbumHelpTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YGQPhotoAlbumHelpTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B821E380FDE40D9AA0D370C11ABB008 /* Pods-YGQPhotoAlbumHelpTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGQPhotoAlbumHelpTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BEC95C6D22D06980E97368D66772E26 /* Pods-YGQPhotoAlbumHelpTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YGQPhotoAlbumHelpTool_Example.modulemap"; sourceTree = "<group>"; };
+		44618AF217163FC29C13104133D62956 /* YGQPhotoAlbumHelpTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YGQPhotoAlbumHelpTool-umbrella.h"; sourceTree = "<group>"; };
+		4547795A216B3C4C415F3CBF14C03252 /* YGQPhotoAlbumHelpTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YGQPhotoAlbumHelpTool.xcconfig; sourceTree = "<group>"; };
+		670D22258244A711D2F3A624FABD98DF /* Pods-YGQPhotoAlbumHelpTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YGQPhotoAlbumHelpTool_Example-resources.sh"; sourceTree = "<group>"; };
+		69A547F7AEB99DE30E515CF401FDC7B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD373E5B06821F5202E8BDB28A3A853 /* Pods-YGQPhotoAlbumHelpTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YGQPhotoAlbumHelpTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7B2DAC8C9D67F48A98DE807C9730039A /* YGQPhotoAlbumHelpTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YGQPhotoAlbumHelpTool.modulemap; sourceTree = "<group>"; };
+		80C1113C963D90CF8D59B26249A3D0C7 /* Pods-YGQPhotoAlbumHelpTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGQPhotoAlbumHelpTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C0CF471F24D4DC6DFBE89CB1ACBD422 /* YGQPhotoAlbumHelpTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YGQPhotoAlbumHelpTool-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A28ACC26E1A6B03D7732A9F5EE799CD9 /* Pods-YGQPhotoAlbumHelpTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YGQPhotoAlbumHelpTool_Example-dummy.m"; sourceTree = "<group>"; };
+		ABF808E71C3253D95526C46F1683EA69 /* Pods-YGQPhotoAlbumHelpTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YGQPhotoAlbumHelpTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		B34C00A5C81EF50BD5D95088E7B7E00F /* Pods-YGQPhotoAlbumHelpTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YGQPhotoAlbumHelpTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		B647D0407405AAECA950C5A26FE7D38B /* Pods-YGQPhotoAlbumHelpTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGQPhotoAlbumHelpTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B91EA89421F211219990F0EDE26422E7 /* Pods-YGQPhotoAlbumHelpTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YGQPhotoAlbumHelpTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BF7682BD9C8D65809E639B66F2678C8E /* Pods-YGQPhotoAlbumHelpTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YGQPhotoAlbumHelpTool_Tests-resources.sh"; sourceTree = "<group>"; };
+		C1DB66AC2C582CB1449607E75BA0A07D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C455168AA729BCB43ADC7DE05930D7E6 /* Pods-YGQPhotoAlbumHelpTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGQPhotoAlbumHelpTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC06A60AFD168945E3A0C9DDEAC6A00A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		DE1D7CFBE90BB90F497BD15385297447 /* Pods-YGQPhotoAlbumHelpTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGQPhotoAlbumHelpTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E756F2D352552E3600718EF7F812DEF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA9618FF614293149E36752FBB80013 /* Pods_YGQPhotoAlbumHelpTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YGQPhotoAlbumHelpTool_Tests.framework; path = "Pods-YGQPhotoAlbumHelpTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4148E8F315D41B3A193ABB4983DE926 /* Pods-YGQPhotoAlbumHelpTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YGQPhotoAlbumHelpTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4313215C4E43D549466DCDC4A49D424 /* Pods-YGQPhotoAlbumHelpTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YGQPhotoAlbumHelpTool_Tests.modulemap"; sourceTree = "<group>"; };
+		FBAA0BACC2C5993FD4D29BDD11CDC6D6 /* YGQPhotoAlbumHelpTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YGQPhotoAlbumHelpTool-dummy.m"; sourceTree = "<group>"; };
+		FD1E16AC848339534BE0D6163301614F /* Pods-YGQPhotoAlbumHelpTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YGQPhotoAlbumHelpTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FDB5DBFF67F29FCD99818883D4FFF118 /* Pods_YGQPhotoAlbumHelpTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YGQPhotoAlbumHelpTool_Example.framework; path = "Pods-YGQPhotoAlbumHelpTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF9B9C2B8615EBDD3E8ECE60653DDD4 /* YGQPhotoAlbumHelpTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YGQPhotoAlbumHelpTool.framework; path = YGQPhotoAlbumHelpTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11AFEDCEFB2196698A4E43853BA85965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D15AFCDFFE0DBE5F19BAC014EF2488A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E24A4A7A25F40E56EAD23685DEBB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED338A6FAB1ACC9CAE47309646A84C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67573092C84F910DF84DBC7FD299DC7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97193320571CADA2C102478EACAD3CBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9A6D837C1163C83DD3F1E16350EC1B /* Pods-YGQPhotoAlbumHelpTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				69A547F7AEB99DE30E515CF401FDC7B5 /* Info.plist */,
+				3BEC95C6D22D06980E97368D66772E26 /* Pods-YGQPhotoAlbumHelpTool_Example.modulemap */,
+				F4148E8F315D41B3A193ABB4983DE926 /* Pods-YGQPhotoAlbumHelpTool_Example-acknowledgements.markdown */,
+				1CDCDDBA3B2FFE20B3F666A377F3AC45 /* Pods-YGQPhotoAlbumHelpTool_Example-acknowledgements.plist */,
+				A28ACC26E1A6B03D7732A9F5EE799CD9 /* Pods-YGQPhotoAlbumHelpTool_Example-dummy.m */,
+				FD1E16AC848339534BE0D6163301614F /* Pods-YGQPhotoAlbumHelpTool_Example-frameworks.sh */,
+				670D22258244A711D2F3A624FABD98DF /* Pods-YGQPhotoAlbumHelpTool_Example-resources.sh */,
+				B34C00A5C81EF50BD5D95088E7B7E00F /* Pods-YGQPhotoAlbumHelpTool_Example-umbrella.h */,
+				C455168AA729BCB43ADC7DE05930D7E6 /* Pods-YGQPhotoAlbumHelpTool_Example.debug.xcconfig */,
+				80C1113C963D90CF8D59B26249A3D0C7 /* Pods-YGQPhotoAlbumHelpTool_Example.release.xcconfig */,
+			);
+			name = "Pods-YGQPhotoAlbumHelpTool_Example";
+			path = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Example";
+			sourceTree = "<group>";
+		};
+		1D201508F2B685D3224178389CEC9430 /* Pods-YGQPhotoAlbumHelpTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E756F2D352552E3600718EF7F812DEF0 /* Info.plist */,
+				F4313215C4E43D549466DCDC4A49D424 /* Pods-YGQPhotoAlbumHelpTool_Tests.modulemap */,
+				1F1F279CFE57910CDC4004607CF0FD95 /* Pods-YGQPhotoAlbumHelpTool_Tests-acknowledgements.markdown */,
+				DE1D7CFBE90BB90F497BD15385297447 /* Pods-YGQPhotoAlbumHelpTool_Tests-acknowledgements.plist */,
+				ABF808E71C3253D95526C46F1683EA69 /* Pods-YGQPhotoAlbumHelpTool_Tests-dummy.m */,
+				6FD373E5B06821F5202E8BDB28A3A853 /* Pods-YGQPhotoAlbumHelpTool_Tests-frameworks.sh */,
+				BF7682BD9C8D65809E639B66F2678C8E /* Pods-YGQPhotoAlbumHelpTool_Tests-resources.sh */,
+				B91EA89421F211219990F0EDE26422E7 /* Pods-YGQPhotoAlbumHelpTool_Tests-umbrella.h */,
+				2B821E380FDE40D9AA0D370C11ABB008 /* Pods-YGQPhotoAlbumHelpTool_Tests.debug.xcconfig */,
+				B647D0407405AAECA950C5A26FE7D38B /* Pods-YGQPhotoAlbumHelpTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-YGQPhotoAlbumHelpTool_Tests";
+			path = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Tests";
+			sourceTree = "<group>";
+		};
+		4901F9AD389446C1ECEABC8C53D0A8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB5DBFF67F29FCD99818883D4FFF118 /* Pods_YGQPhotoAlbumHelpTool_Example.framework */,
+				EDA9618FF614293149E36752FBB80013 /* Pods_YGQPhotoAlbumHelpTool_Tests.framework */,
+				FDF9B9C2B8615EBDD3E8ECE60653DDD4 /* YGQPhotoAlbumHelpTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70310116C078EE26B4BE6504B5C671CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A6D837C1163C83DD3F1E16350EC1B /* Pods-YGQPhotoAlbumHelpTool_Example */,
+				1D201508F2B685D3224178389CEC9430 /* Pods-YGQPhotoAlbumHelpTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C858982B13ACB28AD71699A97F227AB /* YGQPhotoAlbumHelpTool */ = {
+			isa = PBXGroup;
+			children = (
+				F3CBF0DE71F4B67D49446E1BD7283F97 /* Classes */,
+			);
+			name = YGQPhotoAlbumHelpTool;
+			path = YGQPhotoAlbumHelpTool;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E0F3A8C703625E6809AD8C4AA41A3674 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4901F9AD389446C1ECEABC8C53D0A8A5 /* Products */,
+				70310116C078EE26B4BE6504B5C671CB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B0113D0B088EF9E1735CE53EB5FCD064 /* YGQPhotoAlbumHelpTool */ = {
+			isa = PBXGroup;
+			children = (
+				B80B24E1BF3F5C5D9C643DB338FA076E /* Support Files */,
+				7C858982B13ACB28AD71699A97F227AB /* YGQPhotoAlbumHelpTool */,
+			);
+			name = YGQPhotoAlbumHelpTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B80B24E1BF3F5C5D9C643DB338FA076E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB66AC2C582CB1449607E75BA0A07D /* Info.plist */,
+				7B2DAC8C9D67F48A98DE807C9730039A /* YGQPhotoAlbumHelpTool.modulemap */,
+				4547795A216B3C4C415F3CBF14C03252 /* YGQPhotoAlbumHelpTool.xcconfig */,
+				FBAA0BACC2C5993FD4D29BDD11CDC6D6 /* YGQPhotoAlbumHelpTool-dummy.m */,
+				8C0CF471F24D4DC6DFBE89CB1ACBD422 /* YGQPhotoAlbumHelpTool-prefix.pch */,
+				44618AF217163FC29C13104133D62956 /* YGQPhotoAlbumHelpTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YGQPhotoAlbumHelpTool";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0F3A8C703625E6809AD8C4AA41A3674 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0113D0B088EF9E1735CE53EB5FCD064 /* YGQPhotoAlbumHelpTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F3CBF0DE71F4B67D49446E1BD7283F97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC06A60AFD168945E3A0C9DDEAC6A00A /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39C3AD733B774BF1C8C4C5F0879B86F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3B893A0FEDE200C9973710B9E142C3 /* Pods-YGQPhotoAlbumHelpTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4887129A441F15F71248FAF3DDBA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4EC3CD7BED78D397CE4733AB7D87A /* Pods-YGQPhotoAlbumHelpTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00CD5DCDA9699C567DDF2C19569FCAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F7F456064041B09410FE87A435D453 /* YGQPhotoAlbumHelpTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6612AFA0E9F5A775979FF28B41FDBE2A /* Pods-YGQPhotoAlbumHelpTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF8915533D6C25A271BFA810560CD3B /* Build configuration list for PBXNativeTarget "Pods-YGQPhotoAlbumHelpTool_Tests" */;
+			buildPhases = (
+				B8B718FBE227E869F180A3418166F001 /* Sources */,
+				11AFEDCEFB2196698A4E43853BA85965 /* Frameworks */,
+				92B4887129A441F15F71248FAF3DDBA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YGQPhotoAlbumHelpTool_Tests";
+			productName = "Pods-YGQPhotoAlbumHelpTool_Tests";
+			productReference = EDA9618FF614293149E36752FBB80013 /* Pods_YGQPhotoAlbumHelpTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B889A36D74A4938BA49B48FD0B47B9A /* YGQPhotoAlbumHelpTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9442A5DEBB64EA8B7EF1C9EA30D96BDF /* Build configuration list for PBXNativeTarget "YGQPhotoAlbumHelpTool" */;
+			buildPhases = (
+				8BDB2B0AF5231B9FB93DDBF4512B4F2E /* Sources */,
+				67573092C84F910DF84DBC7FD299DC7C /* Frameworks */,
+				A00CD5DCDA9699C567DDF2C19569FCAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGQPhotoAlbumHelpTool;
+			productName = YGQPhotoAlbumHelpTool;
+			productReference = FDF9B9C2B8615EBDD3E8ECE60653DDD4 /* YGQPhotoAlbumHelpTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF5BB94CD161655103040C59E1C5F063 /* Pods-YGQPhotoAlbumHelpTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E4109DAC37A14F112D4B0D471613E7 /* Build configuration list for PBXNativeTarget "Pods-YGQPhotoAlbumHelpTool_Example" */;
+			buildPhases = (
+				09E878A8E6AF58C4F5D1D4E3F6D54708 /* Sources */,
+				14E24A4A7A25F40E56EAD23685DEBB08 /* Frameworks */,
+				39C3AD733B774BF1C8C4C5F0879B86F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A9D8977C49E5D2E91675B59FE07EB90 /* PBXTargetDependency */,
+			);
+			name = "Pods-YGQPhotoAlbumHelpTool_Example";
+			productName = "Pods-YGQPhotoAlbumHelpTool_Example";
+			productReference = FDB5DBFF67F29FCD99818883D4FFF118 /* Pods_YGQPhotoAlbumHelpTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4901F9AD389446C1ECEABC8C53D0A8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5BB94CD161655103040C59E1C5F063 /* Pods-YGQPhotoAlbumHelpTool_Example */,
+				6612AFA0E9F5A775979FF28B41FDBE2A /* Pods-YGQPhotoAlbumHelpTool_Tests */,
+				6B889A36D74A4938BA49B48FD0B47B9A /* YGQPhotoAlbumHelpTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E878A8E6AF58C4F5D1D4E3F6D54708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5850E23B11F5D8B3E65D7F4C62888849 /* Pods-YGQPhotoAlbumHelpTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDB2B0AF5231B9FB93DDBF4512B4F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC081C12137F4CB0B2189D7F8151073 /* ReplaceMe.m in Sources */,
+				3DDBEB418B69556742A2037264D69644 /* YGQPhotoAlbumHelpTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B718FBE227E869F180A3418166F001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DF71BEF7914BC224BC71B61E167651 /* Pods-YGQPhotoAlbumHelpTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A9D8977C49E5D2E91675B59FE07EB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YGQPhotoAlbumHelpTool;
+			target = 6B889A36D74A4938BA49B48FD0B47B9A /* YGQPhotoAlbumHelpTool */;
+			targetProxy = 54AFBD2426C2F056B8D9E1AE5B454D50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A25057E660645A120DF16F329AC45B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C455168AA729BCB43ADC7DE05930D7E6 /* Pods-YGQPhotoAlbumHelpTool_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Example/Pods-YGQPhotoAlbumHelpTool_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YGQPhotoAlbumHelpTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAAD28B9BC3B15E10D687FDF4215FCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4547795A216B3C4C415F3CBF14C03252 /* YGQPhotoAlbumHelpTool.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YGQPhotoAlbumHelpTool/YGQPhotoAlbumHelpTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YGQPhotoAlbumHelpTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YGQPhotoAlbumHelpTool/YGQPhotoAlbumHelpTool.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YGQPhotoAlbumHelpTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5045B5E2DDFCD33744EB835EE3B4A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B647D0407405AAECA950C5A26FE7D38B /* Pods-YGQPhotoAlbumHelpTool_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Tests/Pods-YGQPhotoAlbumHelpTool_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YGQPhotoAlbumHelpTool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5CBB616E7927CFE617CBDCC54250922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C1113C963D90CF8D59B26249A3D0C7 /* Pods-YGQPhotoAlbumHelpTool_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Example/Pods-YGQPhotoAlbumHelpTool_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YGQPhotoAlbumHelpTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0A8DB25D7DF047AED353322279EC776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B821E380FDE40D9AA0D370C11ABB008 /* Pods-YGQPhotoAlbumHelpTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGQPhotoAlbumHelpTool_Tests/Pods-YGQPhotoAlbumHelpTool_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YGQPhotoAlbumHelpTool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDB4A3128729D1A878F4C745349CBA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4547795A216B3C4C415F3CBF14C03252 /* YGQPhotoAlbumHelpTool.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YGQPhotoAlbumHelpTool/YGQPhotoAlbumHelpTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YGQPhotoAlbumHelpTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YGQPhotoAlbumHelpTool/YGQPhotoAlbumHelpTool.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YGQPhotoAlbumHelpTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF8915533D6C25A271BFA810560CD3B /* Build configuration list for PBXNativeTarget "Pods-YGQPhotoAlbumHelpTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A8DB25D7DF047AED353322279EC776 /* Debug */,
+				B5045B5E2DDFCD33744EB835EE3B4A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E4109DAC37A14F112D4B0D471613E7 /* Build configuration list for PBXNativeTarget "Pods-YGQPhotoAlbumHelpTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A25057E660645A120DF16F329AC45B1 /* Debug */,
+				C5CBB616E7927CFE617CBDCC54250922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9442A5DEBB64EA8B7EF1C9EA30D96BDF /* Build configuration list for PBXNativeTarget "YGQPhotoAlbumHelpTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB4A3128729D1A878F4C745349CBA1C /* Debug */,
+				AAAD28B9BC3B15E10D687FDF4215FCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

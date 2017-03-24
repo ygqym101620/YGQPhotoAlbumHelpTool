@@ -1,0 +1,16 @@
+PODS:
+  - YGQPhotoAlbumHelpTool (0.1.0)
+
+DEPENDENCIES:
+  - YGQPhotoAlbumHelpTool (from `../`)
+
+EXTERNAL SOURCES:
+  YGQPhotoAlbumHelpTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YGQPhotoAlbumHelpTool: e87eec4abb39f52cf0768e00757da01c28af7c97
+
+PODFILE CHECKSUM: f1851b033113e65372a62fd60c4cd753eeb6efed
+
+COCOAPODS: 1.2.0

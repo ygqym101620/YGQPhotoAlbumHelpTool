@@ -1,0 +1,6 @@
+framework module Pods_YGQPhotoAlbumHelpTool_Example {
+  umbrella header "Pods-YGQPhotoAlbumHelpTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

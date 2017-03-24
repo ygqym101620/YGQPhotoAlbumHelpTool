@@ -1,0 +1,6 @@
+framework module YGQPhotoAlbumHelpTool {
+  umbrella header "YGQPhotoAlbumHelpTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
